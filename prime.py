@@ -3,11 +3,11 @@ Prime numbers from 1-100
 '''
 
 def isPrime(number):
-	for x in range(2,101):
-		if not number % x and x != number:
+	for i in range(2, number):
+		if not number % i:
 			return False
 	return True
 
-for a in range (2,101):
-	if isPrime(a):
-		print(a, "is a prime number")
+for j in range (2, 101):
+	if isPrime(j):
+		print(j, "is a prime number")
