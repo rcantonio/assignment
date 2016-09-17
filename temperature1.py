@@ -9,4 +9,4 @@ while keepAsking:
     print(fahrenheit, "fahrenheit =", celsius, "celsius")
     repeat = input("Do you want to convert another temperature? [y/n]: ")
     if (repeat.lower() != "y"):
-        again = False
+        keepAsking = False
